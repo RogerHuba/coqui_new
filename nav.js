@@ -4,6 +4,6 @@ document.write(`
     <a href="#events">Events</a>
     <a href="#staff">Staff</a>
     <a href="https://goo.gl/maps/wqZXopR1MXemkbfd6" target="_blank">Directions</a>
-    <a href="tel:2102777789">Call Us: (210) 277-7789</a>
+    <a href="tel:2102777789">Call Us: (210) 310-3307</a>
   </nav>
 `);

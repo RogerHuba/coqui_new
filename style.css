@@ -56,99 +56,14 @@ article > div > p {
   font-weight: 400;
 }
 
-.bluesection {
-  background-color: royalblue;
-  color: ghostwhite;
-}
-
-.bluesection > a {
-  color: ghostwhite;
-}
-
-.bluesection > aside > div {
-  text-align: center;
-}
-
-.apply {
-  background-color: white;
-  border-radius: 9px;
-  box-shadow: 5px 5px 5px gray;
-  margin: 2vh auto;
-  max-width: 700px;
-  padding: 2vh;
-  display: grid;
-  grid-template-columns: 5fr 2fr 1fr;
-}
-.apply > div {
-  align-self: center;
-  text-align: left;
-}
-
-.apply > div > h3 {
-  display: inline;
-}
-
-.apply svg {
-  color: royalblue;
-}
-
-#coding {
-  background-color: royalblue;
-  color: white;
-}
-
-#coding h2 {
-  color: royalblue;
-  background-color: ghostwhite;
-  padding: 0.2em;
-  border-radius: 9px;
-  margin: 0 40px 20px;}
-
-#coding a {
-  color: ghostwhite;
-}
-
-#coding a:hover {
-  color: gold;
-}
-
-#testin h2 {
-  color: rgb(40, 40, 40);
-  background-color: ghostwhite;
-  padding: 0.2em;
-  border-radius: 9px;
-  margin: 0 40px 20px;}
-
-.coursedark {
-  color: rgb(40, 40, 40);
-  background-color: ghostwhite;
-  padding: 0.6em;
-  border-radius: 50%;
-  font-weight: bold;
-  font-size: min(5vw, 22px);
-}
-.courselight {
-  background-color: rgb(40, 40, 40);
-  color: ghostwhite;
-  padding: 0.6em;
-  border-radius: 50%;
-  font-weight: bold;
-  font-size: min(5vw, 22px);
-}            
-
-.swe {
-  background-color: rgb(40, 40, 40);
-  color: ghostwhite;
-}
-
 .hero {
   color: ghostwhite;
   padding: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/coqui_frog.jpeg') fixed 0%;
-  background-size:contain;
-  object-fit: contain;
+  background-size: cover;
+  max-width: 100%;
+  object-fit: cover;
   object-position: center;
-  background-repeat: no-repeat;
 }
 
 .hero > div {
@@ -190,74 +105,6 @@ article > div > p {
   color: ghostwhite;
 }
 
-.widediv {
-  padding: 7vh 2vw;
-  max-width: 840px;
-  margin: 0 auto;
-}
-
-.widediv > div {
-  box-shadow: 5px 5px 5px gray;
-  background-color: white;
-  border-radius: 9px;
-  margin: 3vh auto;
-  padding: 3vw;
-}
-.widediv > div > h5 {text-align: left; margin: 2vh 0;}
-
-table {
-  background-color: royalblue;
-  color: ghostwhite;
-  border-radius: 9px;
-  line-height: 1.25;
-  max-width: 360px;
-  padding: 4vw 2vw;
-  margin: 0 auto;}
-th {font-weight: bold;}
-
-tbody td {
-  padding: 1vh 1vw;
-}
-
-#cfrow {
-  color: gold;
-}
-
-#courses > h1 {
-  margin-bottom: 5vh;
-}
-
-details {
-  margin: 2vh 0;
-}
-
-details summary {
-  cursor: pointer;
-  color:royalblue;
-}
-
-details summary:hover {
-  color: green;
-}
-
-details div {
-  text-align: left;
-  padding: 0 0 2vh;
-}
-
-details div h3 {
-  margin-top: 2vh;
-}
-
-#coursemap {
-  width: min(450px, 85vw);
-  height: auto;
-  padding: 3vh;
-  margin: 4vh auto 3vh;
-  border-radius: 9px;
-  background-color: rgb(40, 40, 40);
-}
-
 nav {
   background-color: rgb(150, 150, 148);
   position: sticky; top: 0;
@@ -295,93 +142,19 @@ a:hover {
   color: gold;
 }
 
-button {
-  background-color:rgb(78, 87, 115);
-  border-radius: .75em;
-  border: none;
-  color: ghostwhite;
-  font-weight: bold;
-  padding: .5em 1.5em;
-}
-
-#sign_up {
-  background-color:royalblue;
-  border-radius: .75em;
-  border: none;
-  color: ghostwhite;
-  font-weight: bold;
-  padding: 1.5em 1.5em;
-
-}
-
-
 button:hover, #sign_up:hover {
   background-color: green;
-}
-
-.modal {
-  display: none;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: rgba(0, 40, 40, 0.5);
-}
-
-.modalcont {
-  text-align: right;
-  margin: 7vh auto;
-  width: min(80%, 400px);
-}
-
-.modalclose {
-  font-size:x-large;
-  color: ghostwhite;
-  cursor: pointer;
-}
-
-#crmWebToEntityForm {
-  background-color: royalblue;
-  color: ghostwhite;
-  max-width: 360px;
-  margin: 0 auto;
-  padding: 4vh 0 2vh;
-  text-align: center;
-  border-radius: 9px;
 }
 
 label {
   font-size: small;
 }
 
-input {
-  border-radius: 9px;
-  border: none;
-  padding: 0.4em 5px;
-  width: 220px;
-  margin-bottom: 2vh;
-  text-align: center;
-}
-
-.formsubmit {
-  background-color: #333;
-  color: ghostwhite;
-  cursor: pointer;
-  margin-top: 2vh;
-  padding: 1vh 0;
-  width: 110px;
-}
-
-.reset {
-  cursor: pointer;
-  width: 110px;
-}
-
 ul {
   margin: 0 5vw;
-  text-align: left;
+  text-align: center;
+  list-style: none;
+  font-size: min(2vw, 30px);
 }
 
 h1 {
@@ -436,6 +209,3 @@ svg, img {
   margin: 4px;
 }
 
-#finance img {
-  height: 70px;
-}

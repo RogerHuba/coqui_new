@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
-/* ... (previous CSS code) */
-
-/* Media Query for Mobile */
-@media (max-width: 768px) {
-  .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/coqui_frog_mobile.jpeg') fixed 0%;
-  }
-
-  .sharp {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/coqui_bar_area_mobile.jpg') fixed;
-  }
-
-  .sharp2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/nightlife_mobile.jpg') fixed top;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -84,7 +67,7 @@ article > div > p {
 .hero {
   color: ghostwhite;
   padding: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/coqui_frog.jpeg') fixed 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/coqui_frog.jpeg') fixed;
   background-size: cover;
   min-width: 100%;
   display: flex;
@@ -105,7 +88,7 @@ article > div > p {
 }
 
 .sharp2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/nightlife.jpg') fixed top;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/nightlife.jpg') fixed;
   background-size: cover;
   max-width: 100%;
   object-fit: cover;
@@ -154,17 +137,6 @@ a {
   color: royalblue;
 }
 
-a:hover {
-  color: gold;
-}
-
-button:hover, #sign_up:hover {
-  background-color: green;
-}
-
-label {
-  font-size: small;
-}
 
 ul {
   margin: 0 5vw;
@@ -179,15 +151,9 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
+h2 h3{
   font-size: min(6vw, 30px);
   padding-bottom: 0.25em;
-}
-
-h3 {
-  font-size: min(5vw, 22px);
-  padding-bottom: 0.25em;
-  font-weight: bold;
 }
 
 h4 {
@@ -199,12 +165,6 @@ h4 {
 h5 {
   font-size: min(4.5vw, 20px);
   padding-bottom: 0.25em;
-  line-height: 1.5;
-}
-
-h6 {
-  font-size: min(4.5vw, 20px);
-  text-decoration: line-through;
   line-height: 1.5;
 }
 
@@ -221,6 +181,3 @@ svg, img {
   height: 30px;
 }
 
-.swe img {
-  margin: 4px;
-}

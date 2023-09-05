@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
+/* ... (previous CSS code) */
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/coqui_frog_mobile.jpeg') fixed 0%;
+  }
+
+  .sharp {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/coqui_bar_area_mobile.jpg') fixed;
+  }
+
+  .sharp2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/nightlife_mobile.jpg') fixed top;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -153,11 +170,11 @@ ul {
   margin: 0 5vw;
   text-align: center;
   list-style: none;
-  font-size: min(2vw, 30px);
+  font-size: min(4vw, 30px);
 }
 
 h1 {
-  font-size: min(8vw, 40px);
+  font-size: min(10vw, 60px);
   padding-bottom: 0.5em;
   font-weight: bold;
 }
